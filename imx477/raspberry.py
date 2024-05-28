@@ -752,3 +752,10 @@ mode_1332x990_regs_120fps = (
     (0x3f56, 0x00),
     (0x3f57, 0xbf),
 )
+
+modes = [
+    ('mode_1332x990_regs_120fps', mode_1332x990_regs_120fps),
+    ('mode_2028x1080_regs_60fps', mode_2028x1080_regs_60fps),
+    ('mode_2028x1520_regs_40fps', mode_2028x1520_regs_40fps),
+    ('mode_4056x3040_regs_10fps', mode_4056x3040_regs_10fps),
+]

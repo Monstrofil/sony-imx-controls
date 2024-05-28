@@ -456,3 +456,7 @@ sensor_4k_regs_30fps_10b = {
     (0x3F57, 0xDC),
     (0x0100, 0x01)
 }
+
+modes = [
+    ('mode1_default', mode1_default)
+]

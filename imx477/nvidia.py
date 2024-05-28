@@ -562,3 +562,8 @@ imx477_mode_1920x1080_60fps = {
     (IMX477_TABLE_WAIT_MS, IMX477_WAIT_MS),
     (IMX477_TABLE_END, 0x0000)
 }
+
+modes = [
+    ('imx477_mode_1920x1080_60fps', imx477_mode_1920x1080_60fps),
+    ('imx477_mode_4032x3040_30fps', imx477_mode_4032x3040_30fps),
+]
